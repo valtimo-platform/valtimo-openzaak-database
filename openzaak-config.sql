@@ -4,7 +4,7 @@ INSERT INTO accounts_user (password, first_name, last_name, username, is_superus
 ('pbkdf2_sha256$150000$5dnJUqLDsmX0$EEbO4AGZqyp88ZCTu+7W2uGRLkdidlL4HkXWc8ZfZV8=', 'Valtimo', 'Demo', 'demo', true, 'demo@valtimo.nl', true, true, now());
 
 INSERT INTO catalogi_catalogus (_admin_name, uuid, domein, rsin, contactpersoon_beheer_naam, contactpersoon_beheer_telefoonnummer, contactpersoon_beheer_emailadres) VALUES
-('valtimo', '8225508a-6840-413e-acc9-6422af120db1', 'VAL', '123456782', 'Valtimo Demo', '06-12345678', 'demo@valtimo.nl');
+('valtimo', '8225508a-6840-413e-acc9-6422af120db1', 'VAL', '002564440', 'Valtimo Demo', '06-12345678', 'demo@valtimo.nl');
 
 INSERT INTO authorizations_applicatie (uuid, client_ids, label, heeft_alle_autorisaties) VALUES
 (uuid_generate_v4(), '{valtimo_client}', 'Valtimo', true);
